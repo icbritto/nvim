@@ -1,11 +1,17 @@
-> # Install the nvim config with PowerShell
+# Install the nvim config with PowerShell
+
+> ## Make a backup of your current Neovim files:
+> 
+> *require* 
 >
-> > ## Make a backup of your current Neovim files:
-> > 
-> > *require* 
-> >
-> > Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
-> >
-> > *optional but recommended*
-> > 
-> > Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+> **Move-Item** $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+>
+>
+> *optional but recommended*
+> 
+> **Move-Item** $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+>
+>
+> ## Clone the starter
+>
+> git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
