@@ -13,7 +13,7 @@
 > 
 > #### Clone the starter
 >
-> `git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim`
+> `git clone https://github.com/icbritto/nvim $env:LOCALAPPDATA\nvim`
 > 
 > 
 > #### Remove the `.git` folder, so you can add it ti your own repo later
@@ -43,7 +43,7 @@
 >
 > #### Clone the starter
 >
-> `git clone https://github.com/LazyVim/starter ~/.config/nvim`
+> `git clone https://github.com/icbritto/nvim ~/.config/nvim`
 >
 >
 > #### Remove the `.git` folder, so you can add it ti your own repo later
