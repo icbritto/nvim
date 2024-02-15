@@ -1,56 +1,56 @@
 # Install the nvim config with PowerShell
 
-> ### Make a backup of your current Neovim files:
+> #### Make a backup of your current Neovim files:
 > 
 > > ***# require*** 
 > >
 > > `Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak`
->
+> >
 > > ***# optional but recommended***
 > >
 > > `Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak`
-
-
-> ### Clone the starter
+>
+>
+> #### Clone the starter
 > 
 > `git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim`
-
-
-> ### Remove the `.git` folder, so you can add it ti your own repo later
+>
+>
+> #### Remove the `.git` folder, so you can add it ti your own repo later
 > 
 > `Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force`
-
-
-> ### Start Neovim!
+>
+>
+> #### Start Neovim!
 > 
-> **nvim**
-
-
+> `nvim`
+>
+>
 # Install the nvim config in Linux/MacOS
-
-> ### Make a backup of your current Neovim files:
+>
+> #### Make a backup of your current Neovim files:
 > 
 > > ***# require***
 > >
-> > `**mv** ~/.config/nvim{,.bak}`
-> 
+> > `mv ~/.config/nvim{,.bak}`
+> >
 > > ***# optional but recommended***
 > >
-> > `**mv** ~/.local/share/nvim{,.bak}`
-> > `**mv** ~/.local/state/nvim{,.bak}`
-> > `**mv** ~/.cache/nvim{,.bak}`
-
-
-> ### Clone the starter
+> > `mv ~/.local/share/nvim{,.bak}`
+> > `mv ~/.local/state/nvim{,.bak}`
+> > `mv ~/.cache/nvim{,.bak}`
 >
-> `**git** clone https://github.com/LazyVim/starter ~/.config/nvim`
-
-
-> ### Remove the `**.git**` folder, so you can add it ti your own repo later
 >
-> `**rm** -rf ~/.config/nvim/.git`
-
-
-> ### Start Neovim!
+> #### Clone the starter
 >
-> `**nvim**`
+> `git clone https://github.com/LazyVim/starter ~/.config/nvim`
+>
+>
+> #### Remove the `.git` folder, so you can add it ti your own repo later
+>
+> `rm -rf ~/.config/nvim/.git`
+>
+>
+> #### Start Neovim!
+>
+> `nvim`
