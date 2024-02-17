@@ -106,7 +106,11 @@ If you are having problems installing the lsp plugins first lets try running the
 npm prefix -g
 ```
 
-- Set the global prefix to the CI user: npm config set prefix <C:\Users\USER\AppData\Roaming\npm>.
+- Set the global prefix to the CI user:
+
+```bash
+npm config set prefix <C:\Users\USER\AppData\Roaming\npm>
+```
 
 - Install the needed packages: 
 
