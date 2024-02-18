@@ -32,6 +32,71 @@ node -v
 
 If it returns its version, that means NodeJs has been successfully installed.
 
+## Ruby
+
+You may already have Ruby installed on your computer. You can check inside a terminal emulator by typing:
+
+```bash
+ruby -v
+```
+
+### Windows
+
+Go to ruby download page: [Ruby | Download](https://rubyinstaller.org/downloads/)
+
+- Download Ruby installer
+- Run the exe to download
+- Add Ruby to your path env variable
+- And check the installation with the commands bellow:
+
+```bash
+ruby -v
+```
+
+```bash
+irb -v
+```
+
+```bash
+gem -v
+```
+
+```bash
+gem sources
+```
+
+Or you can also use the [Windows Package Manager CLI](https://github.com/microsoft/winget-cli) to install Ruby:
+
+```bash
+winget install RubyInstallerTeam.Ruby.{MAJOR}.{MINOR}
+
+# Example
+
+winget install RubyInstallerTeam.Ruby.3.2
+
+# To see all versions avaliable
+
+winget search RubyInstallerTeam.Ruby
+
+# Note: if you are installing ruby for projects, you may want to install RubyWithDevKit
+
+winget install RubyInstallerTeam.RubyWithDevKit.3.2
+```
+
+Also on Windows, you can use the [Chocolatey Package Manager](https://chocolatey.org/install) to install Ruby:
+
+```bash
+choco install ruby
+```
+
+It will reuse existing `msys2`, or install own for complete Ruby development environment.
+
+### Linux/macOS
+
+Go to ruby download page: [Ruby | Download](https://www.ruby-lang.org/en/documentation/installation/)
+
+Then choose the way you prefer to install it.
+
 # Installation
 
 ## Windows (powershell)
