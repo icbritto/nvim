@@ -102,7 +102,7 @@ Then choose the way you prefer to install it.
 You may already have Python installed on your computer. You can check inside a terminal emulator by typing:
 
 ```bash
-python -v
+python --version
 ```
 
 You can find everything you want in this website: [Real Python](https://realpython.com/installing-python/#how-to-install-python-on-windows)
