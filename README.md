@@ -97,6 +97,58 @@ Go to ruby download page: [Ruby | Download](https://www.ruby-lang.org/en/documen
 
 Then choose the way you prefer to install it.
 
+## Python3
+
+You may already have Python installed on your computer. You can check inside a terminal emulator by typing:
+
+```bash
+python -v
+```
+
+You can find everything you want in this website: [Real Python](https://realpython.com/installing-python/#how-to-install-python-on-windows)
+
+But I will live some command lines you can run to install it, anyway.
+
+### Windows
+
+You can use `winget` to install it
+
+```bash
+winget install -e --id Python.Python -v 3.9.0
+```
+
+### macOS
+
+You can use Homebrew to download and install Python:
+
+```bash
+curl https: // bootstrap.pypa.io /get- pip.py - o get- pip.py sudo brew install python3
+```
+
+### Linux
+
+If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 with the following commands:
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install python3.6
+```
+
+If you’re using another version of Ubuntu (e.g. the latest LTS release) or you want to use a more current Python, we recommend using the [deadsnakes PPA](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa) to install Python 3.8:
+
+```bash
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt-get update
+$ sudo apt-get install python3.8
+```
+
+If you are using other Linux distribution, chances are you already have Python 3 pre-installed as well. If not, use your distribution’s package manager. For example on Fedora, you would use dnf:
+
+```bash
+$ sudo dnf install python3
+```
+
 # Installation
 
 ## Windows (powershell)
