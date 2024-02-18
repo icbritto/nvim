@@ -114,7 +114,7 @@ But I will live some command lines you can run to install it, anyway.
 You can use `winget` to install it
 
 ```bash
-winget install -e --id Python.Python -v 3.9.0
+winget install -e --id Python.Python.3.9
 ```
 
 ### macOS
