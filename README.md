@@ -18,7 +18,7 @@ node -v
 
 If it returns its version, that means you already have NodeJs installed. But if you see an error or the version didn't showed, you must install it.
 
-You can download NodeJs directly from their website: [NodeJs|Downloads](https://nodejs.org/en/download)
+You can download NodeJs directly from their website: [NodeJs | Downloads](https://nodejs.org/en/download)
 
 - Once the installation is complete, run the following command (just to make sure everything is Ok):
 
