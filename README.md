@@ -157,7 +157,7 @@ $ sudo dnf install python3
 
 ```bash
 # required
-Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak  
+Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 
 # optional but recommended
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
@@ -170,22 +170,24 @@ git clone https://github.com/icbritto/nvim $env:LOCALAPPDATA\nvim
 ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
+
 ```bash
 Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 ```
 
 - Start Neovim
+
 ```bash
 nvim
 ```
- 
+
 ## Linux/macOS
 
 - Make a backup of your current Neovim files:
 
 ```bash
 # required
-mv ~/.config/nvim{,.bak}  
+mv ~/.config/nvim{,.bak}
 
 # optional but recommended
 mv ~/.local/share/nvim{,.bak}
@@ -200,11 +202,13 @@ git clone https://github.com/icbritto/nvim ~/.config/nvim
 ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
+
 ```bash
 rm -rf ~/.config/nvim/.git
 ```
 
 - Start Neovim
+
 ```bash
 nvim
 ```
@@ -229,7 +233,7 @@ npm prefix -g
 npm config set prefix <C:\Users\USER\AppData\Roaming\npm>
 ```
 
-- Install the needed packages: 
+- Install the needed packages:
 
 ```bash
 npm i -g PKG
