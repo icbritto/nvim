@@ -9,4 +9,4 @@ vim.g.mapleader = " "
 
 -- Personal keymaps
 
-vim.keymap.set('n', '<C-k>', ':terminal<CR>')
+vim.keymap.set('n', '<C-t>', ':terminal<CR>')
